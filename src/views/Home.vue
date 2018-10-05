@@ -1,12 +1,13 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to ВсеРамки.рф"/>
-  </div>
+<template lang="pug">
+
+.home
+  img(alt="VR logo" src="../assets/logo.png")
+  hello-world(msg="Добро пожаловать на ВсеРамки.рф")
+
 </template>
 
 <script>
-// @ is an alias to /src
+
 import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
@@ -15,4 +16,5 @@ export default {
     HelloWorld,
   },
 };
+
 </script>
